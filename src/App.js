@@ -15,11 +15,11 @@ export default function App() {
   return (
     <div className="App">
       <h1>Code Nation Roster</h1>
-      <div>
-        <div>Mikkail Allan</div>
-        <div>He/His</div>
-        <div>Williamsburg Charter Highschool</div>
-      </div>
+      {createRosterItem(
+        "Mikkail Allan",
+        "He/His",
+        "Williamsburg Charter Highschool"
+      )}
       {createRosterItem("Justin Apupalo", "He/His", "NYIT")}
       {createRosterItem(
         "Christopher Bonifacio",
