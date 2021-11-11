@@ -1,2 +1,2 @@
-# code-nation-roster-sample
+# code-nation-class-roster
 Created with CodeSandbox
