@@ -20,9 +20,10 @@ export default function App() {
 
   let elements = [];
 
-  for (let person of people) {
-    elements.push(createRosterItem(person[0], person[1], person[2]));
-  }
+  elements = people.map(function (person) {
+    return createRosterItem(person[0], person[1], person[2]);
+  });
+
   return (
     <div className="App">
       <h1>Code Nation Roster</h1>
